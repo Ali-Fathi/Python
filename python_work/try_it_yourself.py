@@ -83,6 +83,7 @@
 # • Print a new set of invitation messages, one for each person in your list.
 
 from mimetypes import guess_type
+import numbers
 
 
 guess_list = ['Jim', 'Kim', 'Ben', 'Jen']
@@ -110,14 +111,65 @@ guess_list.append('Kimmy')
 # • Use del to remove the last two names from your list, so you have an empty
 # list. Print your list to make sure you actually have an empty list at the end
 # of your program.
-print(len(guess_list))
-guess_list.pop()
-print(guess_list, len(guess_list))
-guess_list.pop()
-guess_list.pop()
-guess_list.pop()
-guess_list.pop()
-print(guess_list, len(guess_list))
-del guess_list[0:2]
-# del guess_list[0]
-print(guess_list, len(guess_list))
+# print(len(guess_list))
+# guess_list.pop()
+# print(guess_list, len(guess_list))
+# guess_list.pop()
+# guess_list.pop()
+# guess_list.pop()
+# guess_list.pop()
+# print(guess_list, len(guess_list))
+# del guess_list[0:2]
+# # del guess_list[0]
+# print(guess_list, len(guess_list))
+# wish_list = ['Norway', 'Ethiopia', 'Qatar', 'Dubai']
+# print(wish_list)
+# wish_list.sort()
+# print(wish_list)
+# print(wish_list.sort())
+
+
+# 4-1. Pizzas: Think of at least three kinds of your favorite pizza. Store these
+# pizza names in a list, and then use a for loop to print the name of each pizza.
+# • Modify your for loop to print a sentence using the name of the pizza
+# instead of printing just the name of the pizza. For each pizza you should
+# have one line of output containing a simple statement like I like pepperoni
+# pizza.
+# • Add a line at the end of your program, outside the for loop, that states
+# how much you like pizza. The output should consist of three or more lines
+# about the kinds of pizza you like and then an additional sentence, such as
+# I really love pizza!
+
+# pizza_names = ["bbq", "deluxe", "cheese"]
+# how_much_i_like_pizza = "very much"
+# for pizza in pizza_names:
+#     # print(pizza)
+#     print(f"I like {pizza} pizza {how_much_i_like_pizza}.")
+
+
+# 4-2. Animals: Think of at least three different animals that have a common characteristic.
+# Store the names of these animals in a list, and then use a for loop to
+# print out the name of each animal.
+
+# cat_breed = ["cat", "tiger", "big cat"]
+# for cat in cat_breed:
+#     print(cat)
+
+# for cat in cat_breed:
+#     print(f"{cat} is demosticated, so it makes great pet.")
+
+# common_things = "four legs"
+# for cat in cat_breed:
+#     print(f"{cat} have {common_things} in common.")
+
+# 4-3. Counting to Twenty: Use a for loop to print the numbers from 1 to 20,
+# inclusive.
+
+# for number in range(1, 21):
+#     print(number)
+
+# 4-6. Odd Numbers: Use the third argument of the range() function to make a
+# list of the odd numbers from 1 to 20. Use a for loop to print each number
+
+for odd_number in range(1, 1, 21):
+    
