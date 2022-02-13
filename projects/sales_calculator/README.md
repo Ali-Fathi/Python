@@ -12,6 +12,4 @@
 - Step 2.
   Enter Sales Price
 - Step 3.
-  Compute by multiplying \*\*Before Tax Price x (Sales / 100
-
-  )
+  Compute by multiplying \*\*Before Tax Price x (Sales / 100)
