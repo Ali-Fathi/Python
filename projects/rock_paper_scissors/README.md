@@ -1,0 +1,6 @@
+
+
+### The game rules:
+    - Rock wins against scissors.
+    - Scissors win against paper.
+    - Paper wins against rock
