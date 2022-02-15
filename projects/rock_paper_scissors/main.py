@@ -41,3 +41,9 @@ print(f"You chose: {choices[user_choice]}")
 # computer
 computer_chose = random.choice(choices)
 print(f"Computer choice: {computer_chose}")
+
+# Logic 
+# The game rules:
+#     - Rock wins against scissors.
+#     - Scissors win against paper.
+#     - Paper wins against rock
