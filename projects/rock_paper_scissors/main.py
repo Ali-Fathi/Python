@@ -37,7 +37,7 @@ print(f"You chose: {choices[user_choice]}")
 
 # computer
 computer_choice = random.randint(0, 2)
-print(f"Computer chose: {computer_choice}")
+print(f"Computer chose: {choices[computer_choice]}")
 
 # Logic 
 # The game rules:
@@ -53,6 +53,8 @@ elif computer_choice == 0 and user_choice == 2:
     print("You lose")
 elif computer_choice > user_choice:
     print("You lose")
+elif user_choice > computer_choice:
+    print("You win!")
 elif computer_choice == user_choice:
     print("Its a draw")
 else:
