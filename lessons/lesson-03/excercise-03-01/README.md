@@ -1,20 +1,12 @@
-Odd or Even
+# Odd or Even
 
-UPDATE
-
-We've moved away from repl.it for coding exercises. Check out the new exercises on Coding Rooms with automated submissions.
-
-Login to your Udemy course and head over to the link below to get the sign up link:
-
-Click here
-
-Instructions
+## Instructions
 
 Write a program that works out whether if a given number is an odd or even number.
 
 Even numbers can be divided by 2 with no remainder.
 
-e.g. 86 is even because 86 ÷ 2 = 43
+_e.g._ 86 is even because 86 ÷ 2 = 43
 
 43 does not have any decimal places. Therefore the division is clean.
 
