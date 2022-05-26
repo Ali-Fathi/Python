@@ -7,9 +7,7 @@
  -----
 
 ###### INPUT
-    What would like to add, substract, multiply or divide ?
-
-            add 
+    What would like to add, substract, multiply or divide? add 
 
     What is first number/digit? 2
     what is second number/digit? 3
