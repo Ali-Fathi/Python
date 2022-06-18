@@ -39,12 +39,13 @@ user_choice_of_art = art[user_choice]
 print(f"You chose:\n {user_choice_of_art}")
 print(f"Computer chose:\n {computer_choice}")
 
-# Game 
+# Game rules
+    # Rock wins against Scissors and lose against Paper 
+    # Scissors wins against Paper and lise against Rock
+    # Paper wins against Rock and lose against Rock
 
 if computer_choice == user_choice_of_art:
     print(f"You chose:\n {user_choice_of_art}")
     print(f"Computer chose:\n {computer_choice}")
     print(f"\n\n Its a draw!")
-
     
-
